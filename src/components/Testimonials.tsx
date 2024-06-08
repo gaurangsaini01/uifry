@@ -61,7 +61,7 @@ function Testimonials({isSmall}:any) {
           <img
             src="/testimonials.svg"
             width={600}
-            className="relative z-50"
+            className="relative z-50 hover:animate-spin-slow transition-all duration-300 ease-in-out hover:cursor-pointer"
             alt=""
           />
           <img

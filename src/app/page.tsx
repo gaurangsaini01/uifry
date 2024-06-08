@@ -7,7 +7,9 @@ import Hero from "@/components/Hero";
 import SideBar from "@/components/SideBar";
 import Testimonials from "@/components/Testimonials";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/Footer";
 import { useEffect, useState } from "react";
+import Copyright from "@/components/Copyright";
 
 export default function Home() {
   const [isSmall, setIsSmall] = useState(false);
@@ -45,6 +47,8 @@ export default function Home() {
       <Testimonials isSmall={isSmall}/>
       <FAQ />
       <Download/>
+      <Footer/>
+      <Copyright/>
     </main>
   );
 }

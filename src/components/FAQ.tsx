@@ -4,7 +4,8 @@ import Card from "./Card";
 
 function FAQ() {
   return (
-    <section className="md:max-w-[80%] max-w-[100vw] mx-auto mt-5">
+    <section className="md:max-w-[80%] relative max-w-[100vw] mx-auto mt-5">
+      <img src="star 1.png" className="absolute right-[-70px] bottom-[-50px]" alt="" />
       <div className="relative">
         <img
           src="star 1.png"

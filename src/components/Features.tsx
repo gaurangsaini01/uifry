@@ -9,7 +9,7 @@ function Features() {
     <section className="max-w-[100vw] md:max-w-[80%] flex flex-col-reverse md:flex-row mx-auto mt-14 px-5 md:px-0 ">
       <div className="md:w-[50%] w-full relative z-50 mt-8 md:mt-0">
         <img src="/star3.png" className="absolute top-20" alt="" />
-        <img src="/features.svg" alt="" />
+        <img src="/features.svg" className="hover:scale-110 hover:transform hover:rotate-[10deg] transition-all duration-200 ease-in-out hover:cursor-pointer"/>
       </div>
       <img src="/bg2.svg " className="w-80 absolute z-10 left-0" alt="" />
       <div className="md:w-[50%] w-full relative md:pt-10">

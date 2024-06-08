@@ -37,7 +37,7 @@ function Hero({isSmall}:any) {
         </div>}
       </div>
       <div className="mt-10 md:mt-0">
-        <img src="/iphone.png" className=" w-[670px] " alt="" />
+        <img src="/iphone.png" className=" w-[670px] hover:scale-110 hover:transform hover:rotate-[25deg] transition-all duration-300 ease-in hover:cursor-pointer" alt="" />
       </div>
     </div>
   );

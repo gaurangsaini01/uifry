@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'spin-slower': 'spin 5s linear infinite',
+      },
       fontFamily: {
         clash:["var(--font-clash)"]
       },
