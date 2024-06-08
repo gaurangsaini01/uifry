@@ -52,6 +52,7 @@ This project uses `next/local` to automatically optimize and load `Clash Display
 ## Technologies used -
 
 * **Next JS :-**
+
 Leverages the familiarity and power of React, making development efficient for those already comfortable with the framework.
 
 Provides features like data fetching, image optimization, and more, reducing boilerplate code and development time.
@@ -74,10 +75,11 @@ Tailwind CSS offers responsive utility classes for various screen sizes (e.g., s
 
 ## Figma File Link -
 
-[Click Here](#https://www.figma.com/design/vBnSxBEHcAYXNAuQ6qWIoh/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=101-79&t=QNxIdfsk49GLLWTC-0)
+You can view the Figma design reference [Click Here](https://www.figma.com/design/vBnSxBEHcAYXNAuQ6qWIoh/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1&t=QNxIdfsk49GLLWTC-0).
+
 
 ## Live Project Link -
 
-[Click Here](#)
+[Click Here](https://uifry-ten-blue.vercel.app/)
 
 

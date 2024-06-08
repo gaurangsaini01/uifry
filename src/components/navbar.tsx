@@ -36,7 +36,7 @@ function Navbar({ isSmall, isOpen, menutoggle }: any) {
             Download
           </button>
           <img
-            src="/star 1.png"
+            src="/star1.png"
             width={50}
             className="absolute right-[-70px] top-[50px]"
           />

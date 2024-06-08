@@ -28,7 +28,7 @@ function Advantages({ isSmall }: any) {
           </div>
         </div>
         <div className="md:w-[50%] w-full relative z-50 mt-8 md:mt-0">
-          <img src="/star 1.png" className="absolute right-[-170px]" alt="" />
+          <img src="/star1.png" className="absolute right-[-170px]" alt="" />
           <img src="/middleiphone.svg" className="relative z-50 hover:scale-110 hover:transform hover:rotate-[10deg] transition-all duration-200 ease-in-out hover:cursor-pointer" alt="" />
           <img
             src="/bg.png"
@@ -64,7 +64,7 @@ function Advantages({ isSmall }: any) {
           </div>
           {!isSmall && (
             <img
-              src="star 1.png"
+              src="star1.png"
               className="absolute bottom-20 right-10"
               alt=""
             />
