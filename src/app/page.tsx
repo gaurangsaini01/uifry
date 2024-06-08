@@ -1,4 +1,5 @@
 "use client"
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import SideBar from "@/components/SideBar";
 import Navbar from "@/components/navbar";
@@ -31,10 +32,11 @@ export default function Home() {
     setIsOpen(!isOpen);
   }
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen overflow-hidden">
       <Navbar isSmall={isSmall} isOpen={isOpen} menutoggle={menutoggle} />
       {isOpen && <SideBar/>}
       <Hero isSmall={isSmall}/>
+      <Features/>
     </main>
   );
 }

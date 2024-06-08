@@ -1,0 +1,50 @@
+{
+    "hero": {
+      "heading": "Make The Best Financial Decisions",
+      "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua parca beta lilo saa"
+    },
+    "features": [
+      {
+        "id":1,
+        "title": "Track all your banks at one place",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua parca betalilo saa",
+        "icon": "/feature1.svg"
+      },
+      {
+        "id":2,
+        "title": "Anytime , Anywhere Withdrawl",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua parca betalilo saa",
+        "icon": "/feature2.svg"
+      },
+      {
+        "id":3,
+        "title": "Enjoy your zero tax profits",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua parca betalilo saa",
+        "icon": "/feature3.svg"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "User One",
+        "feedback": "This app is fantastic! It has changed my life.",
+        "avatar": "https://via.placeholder.com/50"
+      },
+      {
+        "name": "User Two",
+        "feedback": "I can't imagine my daily routine without this app.",
+        "avatar": "https://via.placeholder.com/50"
+      }
+    ],
+    "pricing": [
+      {
+        "plan": "Basic",
+        "price": "$9.99/month",
+        "features": ["Feature A", "Feature B", "Feature C"]
+      },
+      {
+        "plan": "Premium",
+        "price": "$19.99/month",
+        "features": ["Feature A", "Feature B", "Feature C", "Feature D"]
+      }
+    ]
+  }
