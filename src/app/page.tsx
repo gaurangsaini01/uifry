@@ -1,4 +1,5 @@
 "use client"
+import Advantages from "@/components/Advantages";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import SideBar from "@/components/SideBar";
@@ -37,6 +38,7 @@ export default function Home() {
       {isOpen && <SideBar/>}
       <Hero isSmall={isSmall}/>
       <Features/>
+      <Advantages isSmall={isSmall}/>
     </main>
   );
 }
