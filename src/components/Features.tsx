@@ -11,7 +11,7 @@ function Features() {
         <img src="/star3.png" className="absolute top-20" alt="" />
         <img src="/features.svg" alt="" />
       </div>
-      <img src="/bg2.svg " className="absolute z-10 left-0" alt="" />
+      <img src="/bg2.svg " className="w-80 absolute z-10 left-0" alt="" />
       <div className="md:w-[50%] w-full relative md:pt-10">
         <img
           src="/bg.png"
@@ -20,10 +20,10 @@ function Features() {
           alt=""
         />
         <div>
-          <h2 className="text-[#FF5555] md:text-[18px] text-[14px] mb-2 text-center md:text-left font-semibold tracking-wider">
+          <h2 className="text-[#FF5555] md:text-[18px] text-[14px] mb-2 text-center md:text-left font-bold font-clash tracking-wider">
             FEATURES
           </h2>
-          <h1 className="md:text-5xl text-3xl font-bold text-center md:text-left">
+          <h1 className="md:text-5xl text-3xl font-bold font-clash text-center md:text-left">
             Uifry Premium
           </h1>
         </div>

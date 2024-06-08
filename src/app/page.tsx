@@ -1,8 +1,11 @@
 "use client"
 import Advantages from "@/components/Advantages";
+import Download from "@/components/Download";
+import FAQ from "@/components/FAQ";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import SideBar from "@/components/SideBar";
+import Testimonials from "@/components/Testimonials";
 import Navbar from "@/components/navbar";
 import { useEffect, useState } from "react";
 
@@ -35,10 +38,13 @@ export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden">
       <Navbar isSmall={isSmall} isOpen={isOpen} menutoggle={menutoggle} />
-      {isOpen && <SideBar/>}
+      {isOpen && <SideBar isOpen={isOpen}/>}
       <Hero isSmall={isSmall}/>
       <Features/>
       <Advantages isSmall={isSmall}/>
+      <Testimonials isSmall={isSmall}/>
+      <FAQ />
+      <Download/>
     </main>
   );
 }
